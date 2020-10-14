@@ -1,13 +1,16 @@
 .addon {
     position: sticky;
+    right: 10px;
     height: calc(100% - 83px);
     width: 60px;
+    z-index: 998;
+    
     float: right;
-    right: 10px;
+    bottom: 0;
+    right: 0;
     
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
     align-items: center;
 } .addon__link {
     color: #7289DA;

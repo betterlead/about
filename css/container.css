@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: "Discord";
+    src: url("../assets/fonts/UNI\ SANS\ HEAVY.otf");
+}
+
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+.container.cases {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.embed {
+    position: relative;
+    width: 300px;
+    margin: 10px 10px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #F9FAFB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.embed__img {
+    position: relative;
+    width: auto;
+    max-height: 50%;
+    border-radius: 10px 10px 0 0;
+}
+.embed__content {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.embed__content .type {
+    color: rgb(102, 75, 255);
+    font-family: "Discord";
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.embed__content .language_name {
+    font-family: "Roboto";
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.embed__content .link__redir {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    
+    background-color: #1d3557;
+    color: white;
+    font-family: "Discord";
+    letter-spacing: .7px;
+
+    transition: all .2s ease-in-out;
+}
+.embed__content .link__redir:hover {
+    background-color: #284772;
+}
