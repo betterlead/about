@@ -1,0 +1,19 @@
+.addon {
+    position: sticky;
+    height: calc(100% - 83px);
+    width: 60px;
+    float: right;
+    right: 10px;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+} .addon__link {
+    color: #7289DA;
+    font-size: 39px;
+    margin: 25% 0;
+    transition: color .15s ease-in-out;
+} .addon__link:hover {
+    color: white;
+}

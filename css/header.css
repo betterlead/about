@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Discord";
+    src: url("../assets/fonts/UNI\ SANS\ HEAVY.otf");
+} @font-face {
+    font-family: "ESP";
+    src: url("../assets/fonts/ESP.ttf");
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #202225;
+    border-bottom: 1px solid black;
+    color: #85888D;
+}
+
+.header__logo {
+    height: 100%;
+    background: linear-gradient(to right, black, 70%, #202225);
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} .header__logo img {
+    width: 70px;
+    margin-left: 15px;
+} .header__logo #logoName {
+    font-family: "ESP";
+    font-size: 20px;
+    margin-left: 20px;
+    color: #FFFFFF;
+} .header__logo #logoName:hover {
+    cursor: default;
+}
+
+.header__menu {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} .header__menu--item {
+    padding: 0 50px;
+    line-height: 80px;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: "Discord";
+    font-size: 20px;
+    transition: background-color .15s ease-in-out;
+} .header__menu--item:hover {
+    background-color: #7289DA;
+}
